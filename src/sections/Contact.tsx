@@ -40,11 +40,20 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    const form = e.target as HTMLFormElement;
+    const data = new FormData(form);
+
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: data,
+    });
 
     setIsSubmitting(false);
-    setIsSubmitted(true);
+    if (res.ok) {
+      setIsSubmitted(true);
+    } else {
+      alert('Erreur lors de l\'envoi. Veuillez réessayer.');
+    }
   };
 
   const contactInfo = [
@@ -132,6 +141,9 @@ const Contact = () => {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
+                <input type="hidden" name="access_key" value="22462098-985c-406d-9bb8-e820c39ca913" />
+                <input type="hidden" name="subject" value="Nouvelle demande de devis - SolarProfy" />
+                <input type="hidden" name="from_name" value="SolarProfy Site" />
                 <div className="grid sm:grid-cols-2 gap-6">
                   {/* Name */}
                   <div className="space-y-2">
