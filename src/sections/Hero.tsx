@@ -124,7 +124,7 @@ const Hero = () => {
 
           {/* Stats */}
           <div
-            className={`grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-black/10 transition-all duration-700 delay-500 ${
+            className={`grid grid-cols-3 gap-8 mt-16 pt-8 pb-20 border-t border-black/10 transition-all duration-700 delay-500 ${
               isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
