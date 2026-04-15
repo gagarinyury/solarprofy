@@ -11,9 +11,9 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         gold: {
-          DEFAULT: "#F5A623",
-          light: "#FFB74D",
-          dark: "#E8920A",
+          DEFAULT: "#E8AC4E",
+          light: "#F2C47A",
+          dark: "#C8882A",
         },
         black: "#1d1d1f",
         gray: {
