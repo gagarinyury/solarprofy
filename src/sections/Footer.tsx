@@ -40,7 +40,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <a href="#" className="flex items-center gap-2 mb-6">
               <Sun className="w-8 h-8 text-gold" />
-              <span className="text-2xl font-semibold tracking-tight">SOLARPROFY</span>
+              <span className="text-2xl tracking-tight">
+                <span className="text-gold font-light">SOLAR</span><span className="text-white font-semibold">PROFY</span>
+              </span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Solutions solaires premium clé en main pour votre villa sur la
