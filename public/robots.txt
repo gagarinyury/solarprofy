@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solar.profy.top/sitemap.xml
