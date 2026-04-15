@@ -16,6 +16,7 @@ const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [propertyType, setPropertyType] = useState('');
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -152,6 +153,7 @@ const Contact = () => {
                     </Label>
                     <Input
                       id="name"
+                      name="name"
                       type="text"
                       placeholder="Jean Dupont"
                       required
@@ -166,6 +168,7 @@ const Contact = () => {
                     </Label>
                     <Input
                       id="phone"
+                      name="phone"
                       type="tel"
                       placeholder="+33 6 12 34 56 78"
                       required
@@ -181,6 +184,7 @@ const Contact = () => {
                   </Label>
                   <Input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="jean.dupont@email.com"
                     required
@@ -193,16 +197,17 @@ const Contact = () => {
                   <Label htmlFor="property" className="text-sm font-medium">
                     Type de propriété *
                   </Label>
-                  <Select required>
+                  <input type="hidden" name="property" value={propertyType} />
+                  <Select required onValueChange={setPropertyType}>
                     <SelectTrigger className="h-12 border-gray-200 focus:border-gold focus:ring-gold">
                       <SelectValue placeholder="Sélectionnez le type de propriété" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="villa">Villa</SelectItem>
-                      <SelectItem value="maison">Maison</SelectItem>
-                      <SelectItem value="appartement">Appartement</SelectItem>
-                      <SelectItem value="entreprise">Entreprise</SelectItem>
-                      <SelectItem value="autre">Autre</SelectItem>
+                      <SelectItem value="Villa">Villa</SelectItem>
+                      <SelectItem value="Maison">Maison</SelectItem>
+                      <SelectItem value="Appartement">Appartement</SelectItem>
+                      <SelectItem value="Entreprise">Entreprise</SelectItem>
+                      <SelectItem value="Autre">Autre</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -214,6 +219,7 @@ const Contact = () => {
                   </Label>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="Décrivez votre projet, vos besoins..."
                     rows={4}
                     className="border-gray-200 focus:border-gold focus:ring-gold resize-none"
