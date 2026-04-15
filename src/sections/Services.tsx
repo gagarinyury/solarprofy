@@ -114,7 +114,7 @@ const Services = () => {
               <div className="h-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 group hover:bg-white/10 hover:border-gold/30 transition-all duration-400">
                 {/* Number & Icon */}
                 <div className="flex items-start justify-between mb-6">
-                  <span className="text-5xl font-bold text-gold/30">
+                  <span className="text-5xl font-semibold text-gold/30">
                     {service.number}
                   </span>
                   <div className="p-3 bg-gold/10 rounded-lg group-hover:bg-gold/20 transition-colors">
@@ -123,7 +123,7 @@ const Services = () => {
                 </div>
 
                 {/* Content */}
-                <h3 className="text-xl font-bold mb-4 group-hover:text-gold transition-colors">
+                <h3 className="text-xl font-semibold mb-4 group-hover:text-gold transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -174,7 +174,7 @@ const Services = () => {
           }`}
         >
           <div>
-            <h3 className="text-xl font-bold mb-2">
+            <h3 className="text-xl font-semibold mb-2">
               Besoin d'une solution sur mesure ?
             </h3>
             <p className="text-gray-400 text-sm">

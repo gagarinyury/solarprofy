@@ -124,7 +124,7 @@ const Contact = () => {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="text-2xl font-semibold mb-4">
                   Merci pour votre demande !
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -256,7 +256,7 @@ const Contact = () => {
             }`}
           >
             <div className="bg-gray-50 rounded-xl p-8 h-full">
-              <h3 className="text-xl font-bold mb-6">Nos coordonnées</h3>
+              <h3 className="text-xl font-semibold mb-6">Nos coordonnées</h3>
 
               <div className="space-y-6">
                 {contactInfo.map((info) => (

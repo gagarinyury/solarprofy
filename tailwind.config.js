@@ -67,8 +67,7 @@ module.exports = {
         "glow-lg": "0 0 60px rgba(255, 215, 0, 0.4)",
       },
       fontFamily: {
-        sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        sans: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {

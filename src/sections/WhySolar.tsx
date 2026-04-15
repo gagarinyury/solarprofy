@@ -131,7 +131,7 @@ const WhySolar = () => {
                 </div>
 
                 {/* Value */}
-                <div className="text-4xl font-bold text-black mb-2">
+                <div className="text-4xl font-semibold text-black mb-2">
                   {benefit.value}
                   <span className="text-lg text-gray-400 ml-1">
                     {benefit.title === 'Économies' && '%'}
@@ -167,19 +167,19 @@ const WhySolar = () => {
           }`}
         >
           <div className="text-center">
-            <div className="text-3xl font-bold text-gold mb-1">98%</div>
+            <div className="text-3xl font-semibold text-gold mb-1">98%</div>
             <div className="text-sm text-gray-500">Clients satisfaits</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-gold mb-1">2.5M+</div>
+            <div className="text-3xl font-semibold text-gold mb-1">2.5M+</div>
             <div className="text-sm text-gray-500">kWh produits/an</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-gold mb-1">1500+</div>
+            <div className="text-3xl font-semibold text-gold mb-1">1500+</div>
             <div className="text-sm text-gray-500">Tonnes CO₂ évitées</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-gold mb-1">24h</div>
+            <div className="text-3xl font-semibold text-gold mb-1">24h</div>
             <div className="text-sm text-gray-500">Délai de réponse</div>
           </div>
         </div>

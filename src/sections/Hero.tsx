@@ -129,15 +129,15 @@ const Hero = () => {
             }`}
           >
             <div>
-              <div className="text-3xl sm:text-4xl font-bold text-gold">500+</div>
+              <div className="text-3xl sm:text-4xl font-semibold text-gold">500+</div>
               <div className="text-sm text-gray-500 mt-1">Installations</div>
             </div>
             <div>
-              <div className="text-3xl sm:text-4xl font-bold text-gold">15+</div>
+              <div className="text-3xl sm:text-4xl font-semibold text-gold">15+</div>
               <div className="text-sm text-gray-500 mt-1">Années d'expérience</div>
             </div>
             <div>
-              <div className="text-3xl sm:text-4xl font-bold text-gold">70%</div>
+              <div className="text-3xl sm:text-4xl font-semibold text-gold">70%</div>
               <div className="text-sm text-gray-500 mt-1">Économies</div>
             </div>
           </div>

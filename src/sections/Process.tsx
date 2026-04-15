@@ -164,7 +164,7 @@ const Process = () => {
                     <span className="text-sm text-gold font-medium uppercase tracking-wider">
                       Étape {step.number}
                     </span>
-                    <h3 className="text-2xl font-bold mt-2 mb-3">{step.title}</h3>
+                    <h3 className="text-2xl font-semibold mt-2 mb-3">{step.title}</h3>
                     <p className="text-gray-600 body-sm mb-2">
                       {step.description}
                     </p>

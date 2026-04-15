@@ -174,7 +174,7 @@ const Projects = () => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-xl font-bold text-white mb-2">
+                  <h3 className="text-xl font-semibold text-white mb-2">
                     {project.title}
                   </h3>
 
@@ -198,11 +198,11 @@ const Projects = () => {
                     }`}
                   >
                     <div>
-                      <div className="text-gold font-bold">{project.power}</div>
+                      <div className="text-gold font-semibold">{project.power}</div>
                       <div className="text-white/50 text-xs">Puissance</div>
                     </div>
                     <div>
-                      <div className="text-gold font-bold">
+                      <div className="text-gold font-semibold">
                         {project.savings}
                       </div>
                       <div className="text-white/50 text-xs">Économies</div>

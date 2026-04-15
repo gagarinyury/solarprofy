@@ -53,7 +53,7 @@ const Navigation = ({ scrollY }: NavigationProps) => {
                 }}
               >
                 <Sun className="w-6 h-6 text-gold transition-transform duration-300 group-hover:rotate-180" />
-                <span className="text-xl font-bold tracking-tight">SOLARPROFY</span>
+                <span className="text-xl font-semibold tracking-tight">SOLARPROFY</span>
               </a>
 
               {/* Desktop Navigation */}

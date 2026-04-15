@@ -143,7 +143,7 @@ const About = () => {
 
               {/* Floating Card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl rounded-lg max-w-[200px]">
-                <div className="text-4xl font-bold text-gold mb-2">500+</div>
+                <div className="text-4xl font-semibold text-gold mb-2">500+</div>
                 <div className="text-sm text-gray-600">
                   Installations réalisées avec succès
                 </div>
